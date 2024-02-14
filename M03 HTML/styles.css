@@ -1,0 +1,124 @@
+img {
+    width: 50%;
+    height: 30%;
+    overflow: hidden;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.8%;
+    align-items: center;
+    justify-content: center;
+    background-size: 90% 90%;
+    position: center;
+    position:relative;
+}
+body:not(.img) {
+    background-color:cadetblue ;
+    background-position: center;
+    background-image: url(https://mendoza-camara.org/wp-content/uploads/2022/04/Bodega-Andeluna-1.jpg);
+    margin: 5%;
+    background-position: relative;
+    background-size: 95% 95%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    background-color: darksalmon;
+    text-align: center;
+    border-style:ridge;
+    border-color: rgb(0, 100, 139);
+    font-family:'Franklin Gothic Medium';
+    font-size: 300%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color:rgb(0, 100, 139);
+    position: relative;
+}
+
+p :not(.body) {
+    background-size: 80% 80%;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 0.5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 1% 3%;
+    background-color: white;
+    position: relative;
+    position: center;
+    color:rgb(183, 113, 216);
+    font-family:'Gill Sans';
+    font-size: 250%;
+    border-radius: 100% 100%;
+}
+p :hover {
+    background-size: 80% 80%;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 0.5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 1% 3%;
+    background-color: darkcyan;
+    position: relative;
+    position: center;
+    color:rgb(183, 113, 216);
+    font-size: 250%;
+    border-radius: 100% 100%;
+}
+ul :not(.body){
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-size: 80% 80%;
+    margin-top: -1%; 
+    margin-bottom: -0.5%;
+    margin-right: 0.7%;
+    text-align: center;
+    padding: 1% 3%; 
+    position: relative;
+    color: transparent;
+    font-family: 'Segoe UI';
+    font-size: 170%;
+    border-radius: 100% 100%;
+}
+li :not(.body) {
+    margin-bottom: 0.1%;
+    margin-top: 0.1%;
+    position: center;
+    background-color: white;
+    position: relative;
+    color: darksalmon;
+    font-family: 'Segoe UI';
+    font-size: 170%; 
+}
+li :hover {
+    margin-bottom: 0.1%;
+    margin-top: 0.1%;
+    position: center;
+    background-color: darkcyan;
+    position: relative;
+    color: darksalmon;
+    font-family: 'Segoe UI';
+    font-size: 170%; 
+}
+a {
+    text-decoration: none;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+

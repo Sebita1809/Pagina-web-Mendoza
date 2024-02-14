@@ -1,0 +1,91 @@
+body {
+    background-image:
+     url(https://cdn-icons-png.flaticon.com/256/7603/7603233.png),
+     url(https://cdn-icons-png.flaticon.com/256/7295/7295380.png);
+     background-position: 
+     2% -5%,
+     98% 2%;
+    background-color:cadetblue;
+    background-position: relative;
+    background-size: 
+    20% 35%,
+    15% 25%;
+    background-repeat: no-repeat;
+    display:grid;
+    margin-top: 2%;
+    animation: rotarStickers 8s infinite alternate;
+}
+@keyframes rotarStickers {
+    100% {
+        background-position: 
+        98% -2%,
+        2% 5%;
+    }
+}
+
+table {
+    margin-left: 1%;
+    justify-content: center;
+    overflow:hidden;
+    align-items: center;
+    align-items: center;
+    background-color: darksalmon;
+    background-position: relative;
+    background-size: 95% 95%;
+    background-repeat: no-repeat;
+    width: 98%;
+    height: 80%;
+}
+iframe{
+    float: right;
+    display:inline-block;
+    width: 50%;
+    height: 100%;
+}
+img {
+    display:inline-block;
+    width: 50%;
+    height: 100%;
+}
+li {
+    font-size: 170%;
+}
+
+td {
+    text-align: center;
+    font-size: 170%;
+    font-family: Impact, sans-serif;
+}
+
+a:hover  {
+    color: #f9d99a;
+}
+a  {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+caption {
+    background-color: #f67280;
+    border-style: double;
+    border-color:#f8b195;
+    border-width: 10px;
+    font-family:Impact, sans-serif;
+    font-size: 300%;
+    color: #f8b195;
+    margin-bottom: 2.5%;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 2% 3%;
+    border-radius: 100% 100%;
+    animation: cambiarColor 2s infinite alternate;
+}
+@keyframes cambiarColor {
+    100% {
+        background-color: #f8b195;
+        border-color:#f67280;
+        color: #f67280;
+    }
+}
+
+

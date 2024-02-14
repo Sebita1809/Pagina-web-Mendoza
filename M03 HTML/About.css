@@ -1,0 +1,61 @@
+body {
+    background-image: 
+    url(https://cdn-icons-png.flaticon.com/256/11192/11192473.png),
+    url(https://cdn-icons-png.flaticon.com/256/12054/12054678.png);
+    background-position: 
+    50% 15%,
+    5% 5%;
+    background-size: 
+    20% 30%,
+    20% 30%;
+    background-color: darkcyan;
+    background-repeat: no-repeat;
+    display:grid;
+    text-align: center;
+    color: rgb(247, 198, 178);
+}
+p {
+    font-size: 120%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -5%;
+    background-color:#f67280 ;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-color: #f8b195;
+    border-style:dotted;
+    border-width: 10px;
+    animation: bordes 0.2s alternate infinite;
+}
+@keyframes bordes {
+    100% {
+        border-style: dotted;
+        border-color: #ffe8df;
+    }
+}
+
+h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 250%;
+    border-width: 10px;
+    border-color:rgb(247, 198, 178);
+    border-style: double;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+img {
+    display: grid;
+    position: 20% -5%;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 300% 300%;
+    width: 20%;
+    height: 100%;
+    margin-top: -10%;
+    margin-left: 75%;
+    margin-bottom: 15%;
+}
